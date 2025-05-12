@@ -1,1 +1,290 @@
 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA e Cambiamento Climatico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .content-block {
+            transition: all 0.3s ease;
+        }
+        .content-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-placeholder {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f3f4f6;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 0;
+            padding-bottom: 75%;
+            background-color: #f3f4f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        .bullet-list {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+        }
+        .bullet-list li {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-brain text-green-500 text-2xl"></i>
+                <h1 class="text-xl font-bold text-gray-800">IA & Clima</h1>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="nav-link text-gray-600 hover:text-green-500">Home</a>
+                <a href="#" class="nav-link text-gray-600 hover:text-green-500">Impatto</a>
+                <a href="#" class="nav-link text-gray-600 hover:text-green-500">Soluzioni</a>
+                <a href="#" class="nav-link text-gray-600 hover:text-green-500">Risorse</a>
+            </nav>
+            <button class="md:hidden text-gray-600">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-green-600 to-emerald-700 text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">🌍 Il Bene e il Male dell'IA nel Confronto al Cambiamento Climatico</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Esploriamo il duplice ruolo dell'Intelligenza Artificiale nella crisi climatica</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Section 1 -->
+        <section class="mb-20">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-1/2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md p-6 mb-8">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                            <span class="mr-2">🔎</span> 1. Cosa Sta Accadendo Oggi
+                        </h2>
+                        <p class="text-gray-700 mb-4">
+                            Viviamo in un'epoca in cui l'intelligenza artificiale (IA) si sta diffondendo rapidamente in vari settori, offrendo soluzioni innovative ma anche sollevando preoccupazioni ambientali.
+                        </p>
+                        <ul class="bullet-list text-gray-700">
+                            <li><strong>Boom dell'IA:</strong> L'adozione dell'IA è in crescita esponenziale, con applicazioni che spaziano dalla sanità all'agricoltura, dalla finanza alla gestione ambientale.</li>
+                            <li><strong>Impatto Ambientale:</strong> Nonostante i benefici, l'IA comporta un consumo significativo di risorse energetiche e idriche, contribuendo alle emissioni di gas serra e alla pressione sulle risorse idriche.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-line text-gray-400 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="mb-20">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-1/2 order-2 lg:order-1">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md">
+                        <div class="video-container">
+                            <div class="video-placeholder">
+                                <i class="fas fa-play-circle text-gray-400 text-5xl"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 order-1 lg:order-2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md p-6">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                            <span class="mr-2">🌱</span> 2. Come l'IA Aiuta a Combattere il Cambiamento Climatico
+                        </h2>
+                        <p class="text-gray-700 mb-4">
+                            L'IA offre strumenti potenti per affrontare le sfide climatiche:
+                        </p>
+                        <ul class="bullet-list text-gray-700">
+                            <li><strong>Previsioni Meteorologiche Avanzate:</strong> Sistemi come Aardvark Weather forniscono previsioni locali accurate utilizzando solo la potenza di un laptop, rendendo le previsioni accessibili anche nei paesi in via di sviluppo.</li>
+                            <li><strong>Gestione delle Risorse Idriche:</strong> L'IA ottimizza la distribuzione dell'acqua, rileva perdite e prevede la domanda, migliorando l'efficienza e riducendo gli sprechi.</li>
+                            <li><strong>Monitoraggio Ambientale:</strong> Attraverso l'analisi di dati satellitari, l'IA aiuta a monitorare deforestazione, emissioni di gas serra e altri indicatori ambientali.</li>
+                            <li><strong>Ottimizzazione Energetica:</strong> L'IA contribuisce a ridurre il consumo energetico in settori ad alta intensità, come il trattamento delle acque reflue, migliorando l'efficienza e riducendo le emissioni.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="mb-20">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-1/2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md p-6">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                            <span class="mr-2">💧</span> 3. Il Consumo Idrico dell'IA: Una Sfida Emergente
+                        </h2>
+                        <p class="text-gray-700 mb-4">
+                            Nonostante i benefici, l'IA presenta sfide significative in termini di consumo idrico:
+                        </p>
+                        <ul class="bullet-list text-gray-700">
+                            <li><strong>Consumo dei Data Center:</strong> I data center utilizzano grandi quantità di acqua per il raffreddamento. Ad esempio, un centro dati da 1 MW può consumare fino a 25,5 milioni di litri d'acqua all'anno.</li>
+                            <li><strong>Proiezioni Globali:</strong> Si stima che il consumo idrico legato all'IA possa raggiungere tra 4,2 e 6,6 miliardi di metri cubi entro il 2027, superando il consumo annuale di paesi come la Danimarca.</li>
+                            <li><strong>Impatto Locale:</strong> In regioni soggette a siccità, come l'Arizona e l'Oregon, l'uso dell'acqua da parte dei data center può competere con le esigenze delle comunità locali e dell'agricoltura.</li>
+                            <li><strong>Perdita di Acqua:</strong> Gran parte dell'acqua utilizzata per il raffreddamento viene persa per evaporazione, riducendo la disponibilità per altri usi.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md">
+                        <div class="image-placeholder">
+                            <i class="fas fa-tint text-gray-400 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="mb-20">
+            <div class="flex flex-col lg:flex-row gap-8 items-start">
+                <div class="lg:w-1/2 order-2 lg:order-1">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md">
+                        <div class="image-placeholder">
+                            <i class="fas fa-balance-scale text-gray-400 text-4xl"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 order-1 lg:order-2">
+                    <div class="content-block bg-white rounded-xl overflow-hidden shadow-md p-6">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                            <span class="mr-2">⚖️</span> 4. Bilanciare Benefici e Costi Ambientali
+                        </h2>
+                        <p class="text-gray-700 mb-4">
+                            Per massimizzare i benefici dell'IA minimizzando gli impatti ambientali, è necessario:
+                        </p>
+                        <ul class="bullet-list text-gray-700">
+                            <li><strong>Trasparenza:</strong> Le aziende devono rendere pubblici i dati sul consumo idrico e sulle emissioni associate all'IA.</li>
+                            <li><strong>Innovazione Tecnologica:</strong> Sviluppare metodi di raffreddamento più efficienti e hardware a basso consumo energetico.</li>
+                            <li><strong>Politiche Sostenibili:</strong> I governi devono implementare regolamenti che promuovano lo sviluppo responsabile dell'IA, in linea con gli Obiettivi di Sviluppo Sostenibile 2030.</li>
+                            <li><strong>Scelte Strategiche:</strong> Costruire data center in regioni con climi più freddi o utilizzare fonti di raffreddamento alternative, come l'acqua di mare, può ridurre il consumo idrico.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- References -->
+        <section class="bg-white rounded-xl shadow-md p-6">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center">
+                <span class="mr-2">📚</span> Riferimenti e Fonti
+            </h2>
+            <ul class="space-y-2 text-gray-700">
+                <li><strong>The Guardian:</strong> Weatherwatch: How AI could offer faster, affordable weather forecasting</li>
+                <li><strong>Bloomberg:</strong> How AI Demand Is Draining Local Water Supplies</li>
+                <li><strong>MIT News:</strong> Explained: Generative AI's environmental impact</li>
+                <li><strong>Nature Communications:</strong> Artificial intelligence for modeling and understanding extreme weather</li>
+                <li><strong>OECD AI:</strong> How much water does AI consume?</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 bg-green-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Rimani Aggiornato</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Iscriviti alla nostra newsletter per ricevere aggiornamenti su IA e sostenibilità ambientale</p>
+            <div class="max-w-md mx-auto flex">
+                <input type="email" placeholder="La tua email" class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none text-gray-800">
+                <button class="bg-emerald-800 px-6 py-3 rounded-r-lg font-semibold hover:bg-emerald-900 transition">Iscriviti</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">IA & Clima</h3>
+                    <p class="text-gray-400">Esploriamo il rapporto tra intelligenza artificiale e cambiamento climatico.</p>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Link Utili</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Ricerche</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Dati e Statistiche</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Soluzioni</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg mb-4">Contatti</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3"></i>
+                            <span>info@ia-clima.org</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-map-marker-alt mr-3"></i>
+                            <span>Milano, Italia</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2023 IA & Clima. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for mobile menu toggle
+        document.querySelector('.md\\:hidden').addEventListener('click', function() {
+            alert('Menu mobile attivato! Nella versione completa questo aprirebbe il menu di navigazione.');
+        });
+    </script>
+</body>
+</html>
