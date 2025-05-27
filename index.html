@@ -9,10 +9,10 @@
 </head>
 <body>
     <section class="hero">
-        <video class="hero-video" autoplay loop muted playsinline>
-            <source src="https://res.cloudinary.com/drmr7cgvy/video/upload/v1747871057/v1_kycaer.mp4" type="video/mp4"> 
-            <!-- Il tuo browser non supporta il tag video. -->
-        </video>
+
+         <video class="hero-video" autoplay loop muted playsinline>
+             <source src="https://res.cloudinary.com/drmr7cgvy/video/upload/v1747871057/v1_kycaer.mp4" type="video/mp4">  
+        </video> 
     <header>
         <img src="multimedia/logo2.png" alt="Logo" class="logo">
         <!-- Puoi aggiungere qui un menu di navigazione -->
@@ -23,30 +23,27 @@
     </header>
 
     <div class="hero-content">
-        <p id="text0">L'impronta idrica nell'Intelligenza Artificiale</p>
+        <p id="hero-subtitle"></p>
         <div id="space1"></div>
-        <h1>Anche l'IA ha sete?</h1>
+        <h1 id="hero-title"></h1>
     
-            <p>Dalla formazione dei modelli al raffreddamento dei server:</p>
-            <p>quanta acqua serve per far funzionare ChatGPT?</p>
-        
+            <p id="hero-description"></p>
+            <div id="arrow_homepage">
+                <img src="multimedia/homepage_arrow.svg" alt="homepage arrow">
+            </div>
     </div>
     
     </section>
-    <div class="space"></div>
+    <!-- <div class="space"></div> -->
     <main>
         <div id="p2">
-            <h2 style="color:white">Introduzione</h2>
-            <p>L’intelligenza artificiale sta rivoluzionando il nostro modo di vivere, <br>
-                ma c’è un aspetto poco noto: ogni risposta di un modello come <br>
-                ChatGPT può nascondere un costo invisibile in termini di acqua <br>
-                consumata. Mentre la tecnologia avanza, cresce la domanda: <br>
-                <strong>quanta acqua richiede davvero l’IA e quali rischi ambientali <br>comporta questo consumo?</strong></p>
+            <h2 id="intro" style="color:white; font-size:3.5rem; margin-bottom: 1.5rem;"></h2>
+            <p id="intro-testo"></p>
             </div>
 
-        <div id="space3"></div>
+        <!-- <div id="space3"></div> -->
         <div id="p3">
-
+        <p style="color: rgba(255, 255, 255, 0.6); margin-top: 70px; margin-bottom: 0;">5 Domande</p>
         <h2 class="subtitle">È possibile scoprirlo esaminando<br> le seguenti 5 domande:</h2>
         <div class="flex-container">
 
@@ -54,10 +51,10 @@
               <div class="card-number">Q1</div>
               <div class="card-text">Perché è importante comprendere l’impronta idrica dell’IA?</div>
               <div class="card-arrow">
+                <a href="#p4" style="color: inherit;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                </svg></div>
-                <!-- ➔ -->
+                </svg></div></a>
 
             </div>
 
@@ -65,42 +62,286 @@
                 <div class="card-number">Q2</div>
               <div class="card-text">Come influisce il consumo idrico dei sistemi IA sull’ambiente?</div>
               <div class="card-arrow">
+                <a href="#p5" style="color: inherit;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                </svg></div>
+                </svg></div></a>
             </div>
 
             <div class="card" style="width: 15rem; height: 20rem; border-radius: 12px;">
                <div class="card-number">Q3</div>
               <div class="card-text">Quali sono le possibili soluzioni?<br><br><br></div>
               <div class="card-arrow">
+                <a href="#p6" style="color: inherit;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                </svg></div>
+                </svg></div></a>
             </div>
 
             <div class="card" style="width: 15rem; height: 20rem; border-radius: 12px;">
                <div class="card-number">Q4</div>
               <div class="card-text">Consumo idrico di ChatGPT e confronto con altri modelli<br><br></div>
               <div class="card-arrow">
+                <a href="#p7" style="color: inherit;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                </svg></div>
+                </svg></div></a>
             </div>
 
             <div class="card" style="width: 15rem; height: 20rem; border-radius: 12px;;">
                <div class="card-number">Q5</div>
               <div class="card-text"> Quali misure possono ridurre il consumo idrico?<br><br></div>
               <div class="card-arrow">
+                <a href="#p8" style="color: inherit;">
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
                 <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z"/>
-                </svg></div>
+                </svg></div></a>
             </div>
         
         </div>
       </div>
 
+      <div id="p4">
+            <p style="color: rgba(255, 255, 255, 0.6);">Domanda 1</p>
+            <h2 style="color: white; font-size: 3.5rem;">Perché è importante comprendere l’impronta idrica dell’IA?</h2>
+        <div class="grid">
+            <div class="grid-container">
+                <div class="grid-logo">
+                    <img src="multimedia/domanda1-left.svg" alt="Logo" style="width: 500px;">
+                </div>
+                <div class="grid-logo">
+                    <img src="multimedia/domanda1-right.svg" alt="Logo" style="width: 500px;">
+                </div>
+                <div class="grid-text">
+                    <h3>Cos'è l'impronta idrica dell'IA?</h3>
+                    <p>L’impronta idrica dell’IA rappresenta la quantità d’acqua consumata durante la produzione,
+                         l’addestramento e la manutenzione dei modelli IA, inclusa l’acqua usata per il raffreddamento
+                          dei data center e per la produzione dei chip, oltre all’acqua indiretta utilizzata per 
+                          la generazione di energia.</p>
+                </div>
+                <div class="grid-text">
+                    <h3>Perché è importante?</h3>
+                    <p>Con l’aumento delle dimensioni dei modelli IA, cresce anche il consumo d’acqua, rendendo 
+                        fondamentale la comprensione e la gestione di questo aspetto per uno sviluppo sostenibile.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <div id="p5">
+        <p style="color: rgba(255, 255, 255, 0.6);">Domanda 2</p>
+        <h2 style="color: white; font-size: 3.5rem; text-align: center;">Come influisce il consumo idrico dei sistemi IA sull’ambiente?</h2>
+        
+        <div class="p5-grid">
+            <div class="p5-card">
+                <img src="multimedia/p1.jpg" alt="" style="height: 160px; width: 300px; border-radius: 15px;">
+                <p style="font-size: 1rem; line-height: 20px; margin-top: 30px;">
+                    Il raffreddamento dei data center richiede grandi quantità di acqua pulita, parte della quale evapora e non può essere recuperata, aggravando la scarsità idrica locale.
+                </p>
+            </div>
+            <div class="p5-card">
+                <img src="multimedia/p2.webp" alt="" style="height: 160px; width: 300px; border-radius: 15px;">
+                 <p style="font-size: 1rem; line-height: 20px; margin-top: 30px;">
+                   La produzione di hardware, come i chip, utilizza acqua ultrapura in grandi quantità, con potenziali impatti negativi sugli ecosistemi naturali.
+                </p>
+            </div>
+            <div class="p5-card">
+                <img src="multimedia/p3.jpg" alt="" style="height: 160px; width: 300px; border-radius: 15px;">
+                 <p style="font-size: 1rem; line-height: 20px; margin-top: 30px;">
+                    L’eccessivo consumo d’acqua può peggiorare la carenza idrica, influenzando altri settori come l’agricoltura e la vita quotidiana, e può generare tensioni sociali.
+                </p>
+            </div>
+        </div>
+    
+    </div>
+    
+    <div id="p6">
+        <p style="color: rgba(255, 255, 255, 0.6); text-align: center;">Domanda 3</p>
+        <div class="p6-flex-container">
+            <img src="multimedia/water.jpg" alt="Immagine di acqua" class="p6-image">
+
+            <div class="p6-text">
+                
+                            <h2 style="color: white; font-size: 3.5rem;">Quali sono le possibili soluzioni?</h2> 
+                
+                            <div id="p6-grid">
+                                <div class="p6-grid-item">
+                                    <p style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                                        Migliorare l’efficienza energetica e dei sistemi di raffreddamento per ridurre il consumo diretto d’acqua.
+                                    </p>
+                                </div>
+                                <div class="p6-grid-item">
+                                    <p style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                                        Usare fonti di energia rinnovabile (eolico, solare) per diminuire l’acqua utilizzata indirettamente nella produzione di energia.
+                                    </p>
+                                </div>
+                                <div class="p6-grid-item">
+                                    <p style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                                        Promuovere la trasparenza aziendale riguardo al consumo idrico per aumentare controllo e responsabilità sociale.
+                                    </p>
+                                </div>
+                                <div class="p6-grid-item">
+                                    <p style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                                        Favorire collaborazioni tra settori per ottimizzare l’uso dell’acqua, ad esempio applicando l’Intelligenza
+Artificiale all’agricoltura e all’energia.
+                                    </p>
+                                </div>
+                            </div>
+
+            </div>
+        </div>
+      </div>
+
+      <div id="p7">
+        <p style="color: rgba(255, 255, 255, 0.6); text-align: center;">Domanda 4</p>
+        <h2 style="color: white; font-size: 3.5rem; text-align: center; padding-left: 50px; padding-right: 50px;">Consumo idrico di ChatGPT e confronto con altri modelli</h2>
+
+        <div id="p7-flex-container">
+           <div class="p7-item">
+                <img src="multimedia/icon3.svg" alt="">
+                <div class="p7-text">
+                    <h3 style="color: white; padding-left:10px;">L’addestramento consuma enormi quantità d’acqua</h3>
+                    <ul style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                        <li>L’addestramento di GPT-3 ha richiesto circa 700.000 litri di acqua solo nella fase di training.</li>
+                        <li>Per confronto, si tratta di una quantità d’acqua simile a quella necessaria per produrre circa 370 automobili BMW.</li>
+                        <li>Un altro studio stima che l’addestramento di un modello IA con una potenza computazionale equivalente a quella di un cervello umano per un anno richiede circa 126.000 litri di acqua.</li>
+                    </ul>    
+                    
+                </div>
+            </div>
+           <div class="p7-item">
+                <img src="multimedia/icon4.svg" alt="">
+                   <div class="p7-text">
+                    <h3 style="color: white; padding-left:10px;">Anche le interazioni quotidiane hanno un impatto</h3>
+                    <ul style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                        <li>Una singola sessione di 20-50 domande a ChatGPT può consumare circa 500 ml di acqua.</li>
+                        <li>Considerando milioni di interazioni giornaliere, il consumo totale può raggiungere diversi milioni di litri d’acqua al giorno.</li>
+                    </ul>    
+                    
+                </div>
+            </div>
+           <div class="p7-item">
+                <img src="multimedia/icon5.svg" alt="" style="margin-bottom: 10px;">
+                   <div class="p7-text">
+                    <h3 style="color: white; padding-left:10px;">Un confronto con altri settori e modelli IA</h3>
+                    <ul style="color: white; font-size: 1rem; line-height: 1.5; font-weight: 450;">
+                        <li>Il consumo idrico totale dei modelli IA è molto inferiore rispetto all’agricoltura (circa 70% dei prelievi idrici globali) e alla produzione di energia (circa 10-15%), ma può essere rilevante in aree con scarsità d’acqua.</li>
+                        <li>Altri modelli IA di grandi dimensioni (come LaMDA di Google) presentano consumi simili o superiori, anche se i dati precisi sono spesso poco trasparenti.</li>
+                    </ul>    
+                    
+                </div>
+            </div>
+            
+        </div>
+      </div>
       
+      <div id="p8">
+        <p style="color: rgba(255, 255, 255, 0.6);">Domanda 5</p>
+        <h2 style="color: white; font-size: 3.5rem; text-align: center;">Quali misure possono ridurre il consumo idrico?</h2>
+            <div class="accordion-container">
+                <div class="accordion" id="accordion1">
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63); border-radius: 15px;">         
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Migliorare l’efficienza energetica
+                        </h3>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseOne" class="accordion-collapse collapse" >
+                            <div class="accordion-body">
+                                <p style="color: white; font-size: 1rem; line-height: 1.5;">Ridurre il consumo di energia nei data center diminuisce anche il bisogno di acqua per il raffreddamento</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63);">
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Minimizzare i calcoli non necessari
+                        </h3>        
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseTwo" class="accordion-collapse collapse" >
+                        <div class="accordion-body">
+                            <p style="color: white; font-size: 1rem; line-height: 1.5;">Limitare le operazioni superflue riduce il carico computazionale e quindi il consumo di acqua.</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="accordion" id="accordion2">
+
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63); border-radius: 15px;">         
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Ottimizzare la posizione dei data center
+                        </h3>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseThree" class="accordion-collapse collapse" >
+                            <div class="accordion-body">
+                                <p style="color: white; font-size: 1rem; line-height: 1.5;">Scegliere località con abbondanza di acqua e clima favorevole può ridurre la pressione sulle risorse idriche.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63);">
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Monitorare e analizzare il consumo idrico
+                        </h3>        
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseFour" class="accordion-collapse collapse" >
+                        <div class="accordion-body">
+                            <p style="color: white; font-size: 1rem; line-height: 1.5;">Tenere traccia e analizzare i dati sull’uso dell’acqua aiuta a individuare sprechi e ottimizzare i processi.</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63);">
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Implementare sistemi di riutilizzo dell’acqua
+                        </h3>        
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseFive" class="accordion-collapse collapse" >
+                        <div class="accordion-body">
+                            <p style="color: white; font-size: 1rem; line-height: 1.5;">Riciclare e riutilizzare l’acqua nei data center contribuisce a ridurre il prelievo di nuova acqua.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion" id="accordion3">
+
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63); border-radius: 15px;">         
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Usare metodi di raffreddamento alternativi
+                        </h3>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseSix" class="accordion-collapse collapse" >
+                            <div class="accordion-body">
+                                <p style="color: white; font-size: 1rem; line-height: 1.5;">Tecnologie come il raffreddamento ad aria o sistemi a circuito chiuso possono limitare l’uso di acqua.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background-color: rgb(63, 63, 63);">
+                        <h3 style="color: white; font-size: 1.3rem; height: 80px; padding: 20px; margin: 0; background-color: rgb(73, 73, 73); border-radius: 15px;">
+                            Un confronto con altri settori e modelli IA
+                        </h3>        
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" style="background-color: rgb(63, 63, 63); border-radius: 15px;">
+                        </button>
+                        <div id="collapseSeven" class="accordion-collapse collapse" >
+                        <div class="accordion-body">
+                            <p style="color: white; font-size: 1rem; line-height: 1.5;">Sensibilizzare operatori e utenti sull’importanza del risparmio idrico favorisce comportamenti più sostenibili</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+      </div>
 
 
       <section class="end">
@@ -108,7 +349,7 @@
             <source src="https://res.cloudinary.com/drmr7cgvy/video/upload/v1747871114/v2_wswtpb.mp4" type="video/mp4"> 
         </video>  
 
-            <h2 style="color:rgb(255, 255, 255); max-width: 50vw">Conclusione</h2>
+            <h2 style="color:rgb(255, 255, 255); max-width: 50vw; font-size: 3.5rem;">Conclusione</h2>
             <p style="color:rgb(255, 255, 255);">
               Lo studio mostra che l’impronta idrica dei modelli di IA come ChatGPT è molto più bassa rispetto a settori come agricoltura 
               ed energia, ma resta importante, soprattutto dove l’acqua è scarsa. Il consumo deriva sia dal raffreddamento dei data center 
@@ -119,10 +360,11 @@
             </section>
 
         
-        <!-- Contenuto principale -->
     </main>
     <footer>
         <!-- Footer -->
     </footer>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
