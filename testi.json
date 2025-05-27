@@ -1,0 +1,27 @@
+{
+    "hero": {
+        "title": "Anche l'IA ha sete?",
+        "subtitle": "L'impronta idrica nell'Intelligenza Artificiale",
+        "description": "Dalla formazione dei modelli al raffreddamento dei server:<br> quanta acqua serve per far funzionare ChatGPT?"
+    },
+    "introduzione": {
+        "titolo": "Introduzione",
+        "testo": "L’intelligenza artificiale sta rivoluzionando il nostro modo di vivere, <br> ma c’è un aspetto poco noto: ogni risposta di un modello come <br>ChatGPT può nascondere un costo invisibile in termini di acqua <br>consumata. Mentre la tecnologia avanza, cresce la domanda: <br><strong>quanta acqua richiede davvero l’IA e quali rischi ambientali <br>comporta questo consumo?</strong>"
+    },
+    "domande": [
+        {
+            "id": "q1",
+            "titolo": "Domanda 1",
+            "testo": "Perché è importante comprendere l’impronta idrica dell’IA?"
+        },
+        {
+            "id": "q2",
+            "titolo": "Domanda 2",
+            "testo": "Come influisce il consumo idrico dei sistemi IA sull’ambiente?"
+        }
+    ],
+    "conclusione": {
+        "titolo": "Conclusione",
+        "testo": "Lo studio mostra che l’impronta idrica dei modelli di IA come ChatGPT è molto più bassa rispetto a settori come agricoltura ed energia, ma resta importante, soprattutto dove l’acqua è scarsa."
+    }
+}
