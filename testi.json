@@ -35,8 +35,28 @@
             "testo2":"La produzione di hardware, come i chip, utilizza acqua ultrapura in grandi quantità, con potenziali impatti negativi sugli ecosistemi naturali.",
             "testo3":"L’eccessivo consumo d’acqua può peggiorare la carenza idrica, influenzando altri settori come l’agricoltura e la vita quotidiana, e può generare tensioni sociali."
         },
+    "domanda3":
+        {
+            "sottotitolo":"Domanda 3",
+            "titolo":"Quali sono le possibili soluzioni?",
+            "testo1":"Migliorare l’efficienza energetica e dei sistemi di raffreddamento per ridurre il consumo diretto d’acqua.",
+            "testo2":"Usare fonti di energia rinnovabile (eolico, solare) per diminuire l’acqua utilizzata indirettamente nella produzione di energia.",
+            "testo3":"Promuovere la trasparenza aziendale riguardo al consumo idrico per aumentare controllo e responsabilità sociale.",
+            "testo4":"Favorire collaborazioni tra settori per ottimizzare l’uso dell’acqua, ad esempio applicando l’Intelligenza Artificiale all’agricoltura e all’energia."
+        },
+    "domanda4":
+        {
+            "sottotitolo":"Domanda 4",
+            "titolo":"Consumo idrico di ChatGPT e confronto con altri modelli",
+            "titolo1":"L’addestramento consuma enormi quantità d’acqua",
+            "testo1":"<li>L’addestramento di GPT-3 ha richiesto circa 700.000 litri di acqua solo nella fase di training.</li><li>Per confronto, si tratta di una quantità d’acqua simile a quella necessaria per produrre circa 370 automobili BMW.</li><li>Un altro studio stima che l’addestramento di un modello IA con una potenza computazionale equivalente a quella di un cervello umano per un anno richiede circa 126.000 litri di acqua.</li>",
+            "titolo2":"Anche le interazioni quotidiane hanno un impatto",
+            "testo2":"<li>Una singola sessione di 20-50 domande a ChatGPT può consumare circa 500 ml di acqua.</li><li>Considerando milioni di interazioni giornaliere, il consumo totale può raggiungere diversi milioni di litri d’acqua al giorno.</li>",
+            "titolo3":"Un confronto con altri settori e modelli IA",
+            "testo3":"<li>Il consumo idrico totale dei modelli IA è molto inferiore rispetto all’agricoltura (circa 70% dei prelievi idrici globali) e alla produzione di energia (circa 10-15%), ma può essere rilevante in aree con scarsità d’acqua.</li><li>Altri modelli IA di grandi dimensioni (come LaMDA di Google) presentano consumi simili o superiori, anche se i dati precisi sono spesso poco trasparenti.</li>"
+        },
     "conclusione": {
         "titolo": "Conclusione",
-        "testo": "Lo studio mostra che l’impronta idrica dei modelli di IA come ChatGPT è molto più bassa rispetto a settori come agricoltura ed energia, ma resta importante, soprattutto dove l’acqua è scarsa."
+        "testo": "Lo studio mostra che l’impronta idrica dei modelli di IA come ChatGPT è molto più bassa rispetto a settori come agricoltura ed energia, ma resta importante, soprattutto dove l’acqua è scarsa. Il consumo deriva sia dal raffreddamento dei data center sia dalla produzione di energia e hardware. Migliorare l’efficienza energetica, usare fonti rinnovabili, ottimizzare algoritmi e riutilizzare l’acqua sono strategie efficaci per ridurre questo impatto. Tuttavia, servono più trasparenza e ulteriori ricerche per rendere l’IA davvero sostenibile dal punto di vista ambientale."
     }
 }
