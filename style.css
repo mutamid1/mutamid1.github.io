@@ -26,6 +26,11 @@ header {
     height: 24.5px;
 }
 
+.my-transparent-btn {
+    background: transparent;
+    border: none;
+}
+
 .header-lang {
     position: absolute;
     right: 95px;
