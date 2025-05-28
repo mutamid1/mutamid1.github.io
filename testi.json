@@ -8,18 +8,33 @@
         "titolo": "Introduzione",
         "testo": "L’intelligenza artificiale sta rivoluzionando il nostro modo di vivere, <br> ma c’è un aspetto poco noto: ogni risposta di un modello come <br>ChatGPT può nascondere un costo invisibile in termini di acqua <br>consumata. Mentre la tecnologia avanza, cresce la domanda: <br><strong>quanta acqua richiede davvero l’IA e quali rischi ambientali <br>comporta questo consumo?</strong>"
     },
-    "domande": [
-        {
-            "id": "q1",
-            "titolo": "Domanda 1",
-            "testo": "Perché è importante comprendere l’impronta idrica dell’IA?"
+    "domande": 
+        {   
+            "sottotitolo": "5 Domande",
+            "titolo": "È possibile scoprirlo esaminando<br> le seguenti 5 domande:",
+            "domanda1": "Perché è importante comprendere l’impronta idrica dell’IA?",
+            "domanda2": "Come influisce il consumo idrico dei sistemi IA sull’ambiente?",
+            "domanda3": "Quali sono le possibili soluzioni?<br><br><br>",
+            "domanda4": "Consumo idrico di ChatGPT e confronto con altri modelli<br><br>",
+            "domanda5": "Quali misure possono ridurre il consumo idrico?<br><br>"
         },
+    "domanda1":
         {
-            "id": "q2",
-            "titolo": "Domanda 2",
-            "testo": "Come influisce il consumo idrico dei sistemi IA sull’ambiente?"
-        }
-    ],
+            "sottotitolo":"Domanda 1",
+            "titolo":"Perché è importante comprendere l’impronta idrica dell’IA?",
+            "titolo1":"Cos'è l'impronta idrica dell'IA?",
+            "testo1":"L’impronta idrica dell’IA rappresenta la quantità d’acqua consumata durante la produzione, l’addestramento e la manutenzione dei modelli IA, inclusa l’acqua usata per il raffreddamento dei data center e per la produzione dei chip, oltre all’acqua indiretta utilizzata per la generazione di energia.",
+            "titolo2":"Perché è importante?",
+            "testo2":"Con l’aumento delle dimensioni dei modelli IA, cresce anche il consumo d’acqua, rendendo fondamentale la comprensione e la gestione di questo aspetto per uno sviluppo sostenibile."
+        },
+    "domanda2":
+        {
+            "sottotitolo":"Domanda 2",
+            "titolo":"Come influisce il consumo idrico dei sistemi IA sull’ambiente?",
+            "testo1":"Il raffreddamento dei data center richiede grandi quantità di acqua pulita, parte della quale evapora e non può essere recuperata, aggravando la scarsità idrica locale.",
+            "testo2":"La produzione di hardware, come i chip, utilizza acqua ultrapura in grandi quantità, con potenziali impatti negativi sugli ecosistemi naturali.",
+            "testo3":"L’eccessivo consumo d’acqua può peggiorare la carenza idrica, influenzando altri settori come l’agricoltura e la vita quotidiana, e può generare tensioni sociali."
+        },
     "conclusione": {
         "titolo": "Conclusione",
         "testo": "Lo studio mostra che l’impronta idrica dei modelli di IA come ChatGPT è molto più bassa rispetto a settori come agricoltura ed energia, ma resta importante, soprattutto dove l’acqua è scarsa."
