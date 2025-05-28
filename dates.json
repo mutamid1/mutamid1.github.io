@@ -6,14 +6,6 @@
     },
     "introduzione": {
         "titolo": "Introduction",
-        "testo": "Artificial intelligence is revolutionizing our way of life, <br> but there {
-    "hero": {
-        "title": "Is AI thirsty too?",
-        "subtitle": "The Water Footprint of Artificial Intelligence",
-        "description": "From model training to server cooling:<br> how much water is needed to run ChatGPT?"
-    },
-    "introduzione": {
-        "titolo": "Introduction",
         "testo": "Artificial intelligence is revolutionizing our way of life, <br> but there is a little-known aspect: every answer from a model like <br>ChatGPT may hide an invisible cost in terms of water <br>consumption. As technology advances, the question grows: <br><strong>how much water does AI really require and what environmental risks <br>does this consumption entail?</strong>"
     },
     "domande": 
@@ -64,16 +56,4 @@
     "testo": "The study shows that the water footprint of AI models like ChatGPT is much lower compared to sectors such as agriculture and energy, but it remains significant, especially where water is scarce. Consumption comes from both data center cooling and the production of energy and hardware. Improving energy efficiency, using renewable sources, optimizing algorithms, and reusing water are effective strategies to reduce this impact. However, more transparency and further research are needed to make AI truly sustainable from an environmental perspective."       
         }
 
-}is a little-known aspect: every answer from a model like <br>ChatGPT may hide an invisible cost in terms of water <br>consumption. As technology advances, the question grows: <br><strong>how much water does AI really require and what environmental risks <br>does this consumption entail?</strong>"
-    },
-    "domande": 
-        {   
-            "sottotitolo": "5 Questions",
-            "titolo": "You can find out by examining<br> the following 5 questions:",
-            "domanda1": "Why is it important to understand the water footprint of AI?",
-            "domanda2": "How does the water consumption of AI systems impact the environment?",
-            "domanda3": "What are the possible solutions?<br><br><br>",
-            "domanda4": "Water consumption of ChatGPT and comparison with other models<br><br>",
-            "domanda5": "What measures can reduce water consumption?<br><br>"
-        }
 }
