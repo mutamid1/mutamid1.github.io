@@ -6,7 +6,65 @@
     },
     "introduzione": {
         "titolo": "Introduction",
+        "testo": "Artificial intelligence is revolutionizing our way of life, <br> but there {
+    "hero": {
+        "title": "Is AI thirsty too?",
+        "subtitle": "The Water Footprint of Artificial Intelligence",
+        "description": "From model training to server cooling:<br> how much water is needed to run ChatGPT?"
+    },
+    "introduzione": {
+        "titolo": "Introduction",
         "testo": "Artificial intelligence is revolutionizing our way of life, <br> but there is a little-known aspect: every answer from a model like <br>ChatGPT may hide an invisible cost in terms of water <br>consumption. As technology advances, the question grows: <br><strong>how much water does AI really require and what environmental risks <br>does this consumption entail?</strong>"
+    },
+    "domande": 
+        {   
+            "sottotitolo": "5 Questions",
+            "titolo": "You can find out by examining<br> the following 5 questions:",
+            "domanda1": "Why is it important to understand the water footprint of AI?",
+            "domanda2": "How does the water consumption of AI systems impact the environment?",
+            "domanda3": "What are the possible solutions?<br><br><br>",
+            "domanda4": "Water consumption of ChatGPT and comparison with other models<br><br>",
+            "domanda5": "What measures can reduce water consumption?<br><br>"
+        },
+    "domanda1": {
+            "sottotitolo": "Question 1",
+            "titolo": "Why is it important to understand the water footprint of AI?",
+            "titolo1": "What is the water footprint of AI?",
+            "testo1": "The water footprint of AI represents the amount of water consumed during the production, training, and maintenance of AI models, including water used for cooling data centers and manufacturing chips, as well as indirect water used for energy generation.",
+            "titolo2": "Why is it important?",
+            "testo2": "As the size of AI models increases, so does water consumption, making it essential to understand and manage this aspect for sustainable development."
+        },
+    "domanda2": {
+            "sottotitolo": "Question 2",
+            "titolo": "How does the water consumption of AI systems impact the environment?",
+            "testo1": "Cooling data centers requires large amounts of clean water, some of which evaporates and cannot be recovered, worsening local water scarcity.",
+            "testo2": "The production of hardware, such as chips, uses large quantities of ultrapure water, with potential negative impacts on natural ecosystems.",
+            "testo3": "Excessive water consumption can worsen water shortages, affecting other sectors such as agriculture and daily life, and may generate social tensions."
+        },
+    "domanda3": {
+            "sottotitolo": "Question 3",
+            "titolo": "What are the possible solutions?",
+            "testo1": "Improve energy efficiency and cooling systems to reduce direct water consumption.",
+            "testo2": "Use renewable energy sources (wind, solar) to decrease the water used indirectly in energy production.",
+            "testo3": "Promote corporate transparency regarding water consumption to increase oversight and social responsibility.",
+            "testo4": "Encourage cross-sector collaborations to optimize water use, for example by applying Artificial Intelligence to agriculture and energy."
+        },
+    "domanda4": {
+            "sottotitolo": "Question 4",
+            "titolo": "Water consumption of ChatGPT and comparison with other models",
+            "titolo1": "Training consumes enormous amounts of water",
+            "testo1": "<li>The training of GPT-3 required about 700,000 liters of water just for the training phase.</li><li>For comparison, this is a similar amount of water needed to produce about 370 BMW cars.</li><li>Another study estimates that training an AI model with computational power equivalent to a human brain for one year requires about 126,000 liters of water.</li>",
+            "titolo2": "Everyday interactions also have an impact",
+            "testo2": "<li>A single session of 20-50 questions to ChatGPT can consume about 500 ml of water.</li><li>Considering millions of daily interactions, the total consumption can reach several million liters of water per day.</li>",
+            "titolo3": "A comparison with other sectors and AI models",
+            "testo3": "<li>The total water consumption of AI models is much lower compared to agriculture (about 70% of global water withdrawals) and energy production (about 10-15%), but it can be significant in areas with water scarcity.</li><li>Other large AI models (such as Google's LaMDA) have similar or even higher consumption, although precise data are often not very transparent.</li>"
+        },
+    "conclusione": {
+    "titolo": "Conclusion",
+    "testo": "The study shows that the water footprint of AI models like ChatGPT is much lower compared to sectors such as agriculture and energy, but it remains significant, especially where water is scarce. Consumption comes from both data center cooling and the production of energy and hardware. Improving energy efficiency, using renewable sources, optimizing algorithms, and reusing water are effective strategies to reduce this impact. However, more transparency and further research are needed to make AI truly sustainable from an environmental perspective."       
+        }
+
+}is a little-known aspect: every answer from a model like <br>ChatGPT may hide an invisible cost in terms of water <br>consumption. As technology advances, the question grows: <br><strong>how much water does AI really require and what environmental risks <br>does this consumption entail?</strong>"
     },
     "domande": 
         {   
