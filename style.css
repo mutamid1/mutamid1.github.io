@@ -470,6 +470,15 @@ p {
     box-shadow: none !important;
 }
 
+.accordion-button {
+    color: #fff !important;           /* Cambia il colore della freccia */
+    background-color: rgb(63, 63, 63); /* (opzionale) */
+}
+
+.accordion-button::after {
+    filter: invert(1) brightness(2);  /* Rende la freccia bianca */
+}
+
 .accordion-body{
     background-color: rgb(63, 63, 63);
     border-radius: 15px;
